@@ -3,5 +3,35 @@
 @tailwind utilities;
 
 @layer components {
-    
+    .search {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 24 24' stroke-width='1.5' stroke='%23a3a7ad' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Ccircle cx='10' cy='10' r='7' /%3E%3Cline x1='21' y1='21' x2='15' y2='15' /%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: left center;
+    }
+
+    .list {
+        @apply flex gap-4 list-none items-center justify-start flex-wrap ml-2 mr-2 mb-12 relative;
+    }
+
+    .list-item {
+        @apply w-full sm:w-[48%] md:w-[31%] min-h-[220px] bg-white rounded-md shadow-[0px_14px_22px_-8px_rgba(26,50,101,0.15)] p-8 relative self-stretch transition-all duration-300 ease-in;
+    }
+
+    .list-item:hover {
+        @apply shadow-[0px_8px_13px_-1px_rgba(13,30,65,0.15)] scale-105 cursor-pointer
+    }
+
+    .list-item h3 {
+        @apply font-semibold text-xl mb-1 text-slate-700 ml-16;
+    }
+
+    .list-item small {
+        @apply text-slate-400 text-sm font-medium ml-16;
+    }
+
+    .list-item p {
+        @apply mt-3 font-medium text-slate-600 ml-16 leading-5;
+    }
 }
+
+
