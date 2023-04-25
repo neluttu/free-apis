@@ -1,2 +1,2 @@
-# free-ips
+# free-apis
 iCodeThis.com daily challenge
