@@ -36,11 +36,11 @@
     }
 
     .list-item {
-        @apply w-full sm:w-[48%] md:w-[31%] min-h-[220px] bg-white rounded-md shadow-[0px_14px_22px_-8px_rgba(26,50,101,0.15)] p-8 relative self-stretch transition-all duration-300 ease-in overflow-hidden;
+        @apply w-full sm:w-[48%] md:w-[31%] min-h-[220px] bg-white rounded-md shadow-[0px_14px_22px_-8px_rgba(26,50,101,0.15)] p-8 relative self-stretch transition-all duration-200 ease-in overflow-hidden;
     }
 
     .list-item:hover {
-        @apply shadow-[0px_8px_13px_-1px_rgba(13,30,65,0.15)] cursor-pointer bg-gradient-to-b from-[#ffffff] to-[#f3f9ff]
+        @apply shadow-[0px_8px_15px_5px_rgba(21,54,88,0.2)] bg-gradient-to-b from-[#ffffff] to-[#f3f9ff]
     }
 
     .cta {
